@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=RouteNet-Fermi-Jitter-Scheduling
+#SBATCH -q debug
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --mem=16GB
+#SBATCH --gpus-per-node=1
+#SBATCH --time=00:59:00
+#SBATCH --constraint=F
+#SBATCH --output=./Routenet_logs/%x_%j.out
+#SBATCH --error=./Routenet_logs/%x_%j.err
+
+source /etc/profile.d/modules.sh
+source /scratch/gilbreth/mohame43/Routenet/routenet/bin/activate
+export SAMPLE_INDEX=7
+bash /scratch/gilbreth/mohame43/Routenet/predict_with_candidate_routes_.sh

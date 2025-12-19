@@ -1,0 +1,4 @@
+tensorflow==2.6.*
+networkx==2.6.*
+pandas==1.1.*
+tensorflow-probability==0.14.1

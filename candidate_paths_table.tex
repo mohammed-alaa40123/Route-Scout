@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{array}
+\begin{document}
+
+\section{Candidate Paths for Geant2}
+
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Path & Erlang Delay & Fermi Delay & Erlang Jitter & Fermi Jitter \\
+\midrule
+0$\to$1$\to$9$\to$12$\to$8$\to$5 & 0.277420 & 0.277420 & 0.019032 & 0.019032 \\
+0$\to$1$\to$6$\to$3$\to$5 & \textbf{0.175833} & 0.183536 & 0.008079 & 0.007845 \\
+0$\to$1$\to$6$\to$8$\to$5 & 0.193901 & 0.195170 & 0.008886 & 0.008331 \\
+0$\to$1$\to$9$\to$6$\to$3$\to$5 & 0.202454 & 0.204287 & 0.009700 & \textbf{0.005454} \\
+0$\to$1$\to$9$\to$6$\to$8$\to$5 & 0.217665 & 0.216116 & 0.010399 & 0.006394 \\
+\bottomrule
+\end{tabular}
+
+\section{Candidate Paths for NSFNet}
+
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Path & Erlang Delay & Fermi Delay & Erlang Jitter & Fermi Jitter \\
+\midrule
+0$\to$2$\to$5 & \textbf{0.186728} & \textbf{0.186728} & \textbf{0.014117} & \textbf{0.014117} \\
+0$\to$3$\to$4$\to$5 & 0.318690 & 0.320165 & 0.029672 & 0.028741 \\
+0$\to$1$\to$2$\to$5 & 0.423481 & 0.421992 & 0.057029 & 0.043488 \\
+0$\to$1$\to$7$\to$6$\to$4$\to$5 & 0.855382 & 1.016690 & 0.144316 & 0.093104 \\
+0$\to$1$\to$7$\to$10$\to$13$\to$5 & 0.848250 & 0.976318 & 0.153630 & 0.082369 \\
+\bottomrule
+\end{tabular}
+
+\section{Candidate Paths for RedIRIS}
+
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Path & Erlang Delay & Erlang Jitter \\
+\midrule
+0$\to$5 & \textbf{0.053444} & \textbf{0.001881} \\
+0$\to$1$\to$5 & 0.177583 & 0.017779 \\
+0$\to$1$\to$4$\to$5 & 0.316561 & 0.042040 \\
+0$\to$1$\to$17$\to$5 & 0.350448 & 0.049401 \\
+0$\to$1$\to$2$\to$3$\to$5 & 0.376362 & 0.050728 \\
+\bottomrule
+\end{tabular}
+
+\end{document}
