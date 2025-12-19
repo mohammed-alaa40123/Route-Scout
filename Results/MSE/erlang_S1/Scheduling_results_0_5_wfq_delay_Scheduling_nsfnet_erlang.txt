@@ -1,0 +1,235 @@
+2025-12-18 19:42:45.957272: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /apps/spack/gilbreth-r9/apps/cuda/12.6.0-gcc-11.5.0-a7cv7sp/lib64:/apps/spack/gilbreth-r9/apps/libxml2/2.10.3-gcc-11.5.0-wroyiwb/lib:/apps/spack/gilbreth-r9/apps/libiconv/1.17-gcc-11.5.0-36njf44/lib:/apps/spack/gilbreth-r9/apps/libfabric/1.19.1-gcc-11.5.0-b5idhcg/lib64:/apps/spack/gilbreth-r9/apps/libfabric/1.19.1-gcc-11.5.0-b5idhcg/lib:/apps/spack/gilbreth-r9/apps/openmpi/4.1.6-gcc-11.5.0-w7wc45k/lib
+2025-12-18 19:42:45.957731: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2025-12-18 19:42:52.081002: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2025-12-18 19:42:52.081087: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: gilbreth-fe03.rcac.purdue.edu
+2025-12-18 19:42:52.081105: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: gilbreth-fe03.rcac.purdue.edu
+2025-12-18 19:42:52.081193: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 565.57.1
+2025-12-18 19:42:52.081226: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 565.57.1
+2025-12-18 19:42:52.081238: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 565.57.1
+2025-12-18 19:42:52.081634: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-12-18 19:42:54.391678: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).queue_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).queue_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).queue_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).queue_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).queue_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).queue_update.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+
+=== ERLANG SCHEDULING MODE B ===
+Dataset directory : /scratch/gilbreth/mohame43/Routenet/RouteNet-Erlang/data/scheduling/train
+Experiment dir    : /scratch/gilbreth/mohame43/Routenet/RouteNet-Erlang/Scheduling/Delay
+Metric / label    : delay (D_G attribute = 'delay')
+Sample index      : 1
+Routes file       : /scratch/gilbreth/mohame43/Routenet/candidate_routes_scheduling_0_5_train_nsfnet.txt
+
+[Erlang-Sched] Selected sample_index=1 (graph=graph-nsfnet-wfq-drr-sp-91.txt, dataset_file=/scratch/gilbreth/mohame43/Routenet/RouteNet-Erlang/data/scheduling/train/gnnet_data_set_0_99.tar.gz)
+Baseline sample (Erlang-Sched) uses topology graph: graph-nsfnet-wfq-drr-sp-91.txt
+Loaded baseline sample (Erlang-Sched): n_paths = 182, n_links = 42
+BEST CHECKPOINT FOUND (Erlang-Sched): 50-4.34
+
+========================================================================================================================
+[Erlang-Sched] Candidate 1: src=0, dst=5, path = 0->2->5
+========================================================================================================================
+  idx src dst            route_nodes    traffic    packets   true_delay_orig   pred_delay
+-----------------------------------------------------------------------------------------
+    0   0   1                       0->1    350.733      0.353          0.112323          0.113321
+    1   0   2                       0->2    111.101      0.112          0.117108          0.120338
+    2   0   3                       0->3    258.200      0.258          0.132184          0.133181
+    3   0   4                    0->3->4    493.234      0.494          0.179611          0.179795
+    4   0   5 *                  0->2->5    588.126      0.583          0.165400          0.165366
+    5   0   6                 0->3->4->6    372.817      0.374          0.320173          0.315937
+    6   0   7                    0->1->7    240.129      0.241          0.238699          0.232025
+    7   0   8                    0->3->8    258.277      0.256          0.190747          0.192101
+    8   0   9                 0->3->8->9    147.789      0.149          0.299288          0.300268
+    9   0  10                0->1->7->10    108.129      0.108          0.288356          0.284261
+   10   0  11                0->3->8->11    345.508      0.347          0.324359          0.325195
+   11   0  12                0->2->5->12    505.095      0.506          0.333460          0.338924
+   12   0  13                0->2->5->13    255.027      0.257          0.283733          0.284542
+   13   1   0                       1->0    162.849      0.161          0.125417          0.122101
+   14   1   2                       1->2     82.633      0.083          0.105872          0.110466
+   15   1   3                    1->0->3    122.067      0.124          0.255148          0.255143
+   16   1   4                 1->0->3->4    509.072      0.508          0.305616          0.301887
+   17   1   5                    1->2->5    617.634      0.616          0.154181          0.158572
+   18   1   6                    1->7->6    191.583      0.192          0.257708          0.247757
+   19   1   7                       1->7    160.025      0.160          0.123143          0.121069
+   20   1   8                 1->0->3->8    402.704      0.400          0.323790          0.328498
+   21   1   9                1->7->10->9    132.946      0.135          0.296743          0.297586
+   22   1  10                   1->7->10    303.605      0.305          0.165334          0.160585
+   23   1  11               1->7->10->11    134.045      0.136          0.287460          0.287142
+   24   1  12                1->2->5->12    148.972      0.151          0.286886          0.293899
+   25   1  13               1->7->10->13    433.557      0.432          0.343304          0.340861
+   26   2   0                       2->0    190.995      0.192          0.122309          0.121958
+   27   2   1                       2->1    565.903      0.560          0.126398          0.128733
+   28   2   3                    2->0->3     78.591      0.079          0.264361          0.263682
+   29   2   4                    2->5->4    189.344      0.191          0.088478          0.092535
+   30   2   5                       2->5    114.723      0.114          0.045286          0.045530
+   31   2   6                 2->1->7->6    300.381      0.303          0.376125          0.374087
+   32   2   7                    2->1->7    292.969      0.291          0.254732          0.247825
+   33   2   8                 2->0->3->8    547.243      0.548          0.315020          0.319503
+   34   2   9                2->5->12->9    177.298      0.178          0.318216          0.323300
+   35   2  10               2->5->13->10    627.557      0.630          0.360215          0.341147
+   36   2  11               2->5->12->11    202.620      0.203          0.293327          0.294978
+   37   2  12                   2->5->12    277.315      0.277          0.212301          0.215012
+   38   2  13                   2->5->13     77.592      0.079          0.178993          0.182842
+   39   3   0                       3->0    121.744      0.121          0.135244          0.134059
+   40   3   1                    3->0->1    565.382      0.565          0.246256          0.244345
+   41   3   2                    3->0->2    211.780      0.208          0.246064          0.242768
+   42   3   4                       3->4    179.525      0.179          0.045879          0.045672
+   43   3   5                    3->4->5    396.187      0.398          0.091441          0.093801
+   44   3   6                    3->4->6    498.710      0.501          0.167541          0.167903
+   45   3   7                 3->4->6->7    263.760      0.266          0.310054          0.312498
+   46   3   8                       3->8    461.886      0.461          0.045753          0.048924
+   47   3   9                    3->8->9    341.854      0.343          0.154847          0.158813
+   48   3  10               3->8->11->10    558.500      0.558          0.320746          0.318006
+   49   3  11                   3->8->11    244.100      0.241          0.180107          0.180650
+   50   3  12                3->4->5->12    359.492      0.359          0.261695          0.266087
+   51   3  13                3->4->5->13    312.158      0.312          0.232444          0.231938
+   52   4   0                    4->3->0    523.663      0.524          0.177639          0.179809
+   53   4   1                 4->5->2->1    627.854      0.624          0.233798          0.232595
+   54   4   2                    4->5->2    548.045      0.553          0.095743          0.096733
+   55   4   3                       4->3    534.491      0.536          0.043535          0.043859
+   56   4   5                       4->5    457.098      0.456          0.047790          0.048054
+   57   4   6                       4->6    615.021      0.612          0.128724          0.125374
+   58   4   7                    4->6->7    292.752      0.291          0.265977          0.262882
+   59   4   8                    4->3->8    461.596      0.460          0.089662          0.099311
+   60   4   9                4->5->12->9    160.252      0.160          0.320517          0.326004
+   61   4  10               4->5->13->10    266.594      0.265          0.320612          0.327257
+   62   4  11               4->5->12->11    129.441      0.128          0.327162          0.328698
+   63   4  12                   4->5->12    196.546      0.198          0.213647          0.217151
+   64   4  13                   4->5->13    120.768      0.118          0.187998          0.185262
+   65   5   0                    5->2->0    575.576      0.573          0.170079          0.170892
+   66   5   1                    5->2->1    506.009      0.503          0.171524          0.171674
+   67   5   2                       5->2    483.893      0.484          0.049802          0.049502
+   68   5   3                    5->4->3    239.641      0.242          0.086829          0.089800
+   69   5   4                       5->4    344.733      0.348          0.043702          0.042208
+   70   5   6                    5->4->6    297.634      0.299          0.171205          0.170187
+   71   5   7               5->13->10->7     79.292      0.078          0.327071          0.320352
+   72   5   8                5->12->9->8    186.678      0.184          0.452851          0.446471
+   73   5   9                   5->12->9    628.914      0.635          0.260972          0.261739
+   74   5  10                  5->13->10    472.940      0.474          0.272293          0.275434
+   75   5  11                  5->12->11    440.526      0.441          0.276086          0.274278
+   76   5  12                      5->12    365.017      0.367          0.166214          0.162679
+   77   5  13                      5->13    249.683      0.246          0.138057          0.134454
+   78   6   0                 6->7->1->0    261.366      0.264          0.389946          0.389449
+   79   6   1                    6->7->1    186.274      0.187          0.296909          0.289463
+   80   6   2                 6->4->5->2    450.374      0.455          0.219191          0.225877
+   81   6   3                    6->4->3    363.647      0.368          0.166224          0.169783
+   82   6   4                       6->4    181.638      0.179          0.132108          0.132850
+   83   6   5                    6->4->5    564.920      0.564          0.181722          0.183977
+   84   6   7                       6->7    498.242      0.504          0.134783          0.133894
+   85   6   8                 6->4->3->8    407.040      0.407          0.222289          0.237004
+   86   6   9                6->7->10->9    669.780      0.667          0.338893          0.327875
+   87   6  10                   6->7->10    156.872      0.157          0.186930          0.181349
+   88   6  11               6->7->10->11    366.933      0.368          0.316071          0.315633
+   89   6  12                6->4->5->12    373.253      0.374          0.348173          0.356652
+   90   6  13               6->7->10->13    513.780      0.515          0.352112          0.351923
+   91   7   0                    7->1->0    517.172      0.515          0.292209          0.283677
+   92   7   1                       7->1    504.604      0.507          0.142325          0.140492
+   93   7   2                    7->1->2     67.741      0.068          0.248479          0.244143
+   94   7   3                 7->1->0->3    133.408      0.133          0.431799          0.433328
+   95   7   4                    7->6->4    542.271      0.546          0.264079          0.259828
+   96   7   5               7->10->13->5    467.751      0.471          0.353208          0.357504
+   97   7   6                       7->6    361.011      0.363          0.131503          0.125686
+   98   7   8                7->10->9->8    385.098      0.382          0.359519          0.348172
+   99   7   9                   7->10->9    165.634      0.167          0.199503          0.194358
+  100   7  10                      7->10    610.749      0.615          0.047254          0.046673
+  101   7  11                  7->10->11    549.932      0.551          0.178831          0.177989
+  102   7  12              7->10->11->12    447.954      0.449          0.317440          0.317063
+  103   7  13                  7->10->13    349.534      0.347          0.215861          0.214557
+  104   8   0                    8->3->0    463.880      0.463          0.181782          0.179837
+  105   8   1                 8->3->0->1    241.105      0.240          0.287977          0.282634
+  106   8   2                 8->3->0->2    296.739      0.298          0.300112          0.299343
+  107   8   3                       8->3     78.352      0.080          0.045804          0.046257
+  108   8   4                    8->3->4    155.211      0.155          0.092648          0.092763
+  109   8   5               8->11->12->5    197.298      0.193          0.411001          0.395392
+  110   8   6                 8->3->4->6    126.649      0.126          0.214681          0.217052
+  111   8   7               8->11->10->7    186.801      0.190          0.317955          0.311568
+  112   8   9                       8->9    605.263      0.607          0.108889          0.109195
+  113   8  10                  8->11->10    341.915      0.341          0.259426          0.256502
+  114   8  11                      8->11    136.252      0.135          0.131719          0.128424
+  115   8  12                  8->11->12    643.663      0.642          0.272015          0.265696
+  116   8  13              8->11->10->13     92.329      0.090          0.401855          0.390478
+  117   9   0                 9->8->3->0    199.466      0.198          0.345026          0.344555
+  118   9   1                9->10->7->1    465.408      0.467          0.339050          0.329587
+  119   9   2                9->12->5->2    276.374      0.276          0.297021          0.298929
+  120   9   3                    9->8->3    560.058      0.557          0.218800          0.216508
+  121   9   4                 9->8->3->4    505.870      0.505          0.234199          0.237355
+  122   9   5                   9->12->5    134.203      0.132          0.285053          0.271137
+  123   9   6                9->10->7->6    314.226      0.314          0.308269          0.300929
+  124   9   7                   9->10->7    210.290      0.214          0.164913          0.165710
+  125   9   8                       9->8    514.261      0.514          0.172321          0.172847
+  126   9  10                      9->10    320.785      0.319          0.125936          0.122006
+  127   9  11                   9->8->11    315.008      0.314          0.278010          0.276130
+  128   9  12                      9->12    102.054      0.102          0.104022          0.103418
+  129   9  13                  9->10->13    500.274      0.505          0.288608          0.293572
+  130  10   0                10->7->1->0    549.615      0.551          0.303001          0.303890
+  131  10   1                   10->7->1    441.260      0.439          0.181907          0.183441
+  132  10   2               10->13->5->2    314.626      0.318          0.348776          0.352639
+  133  10   3                10->9->8->3    493.172      0.493          0.352948          0.346462
+  134  10   4               10->13->5->4    224.161      0.227          0.307107          0.306971
+  135  10   5                  10->13->5    561.609      0.564          0.301048          0.305659
+  136  10   6                   10->7->6    640.012      0.639          0.171913          0.171480
+  137  10   7                      10->7    190.659      0.193          0.048051          0.047562
+  138  10   8                   10->9->8    278.678      0.282          0.292452          0.291423
+  139  10   9                      10->9    171.741      0.171          0.148148          0.146417
+  140  10  11                     10->11    476.917      0.473          0.122212          0.122263
+  141  10  12                 10->11->12    110.029      0.112          0.265023          0.264833
+  142  10  13                     10->13    617.159      0.615          0.163760          0.163963
+  143  11   0                11->8->3->0    390.232      0.393          0.287294          0.288317
+  144  11   1               11->10->7->1    375.134      0.372          0.321212          0.320280
+  145  11   2               11->12->5->2    429.402      0.425          0.323649          0.318117
+  146  11   3                   11->8->3    504.924      0.507          0.158311          0.157308
+  147  11   4               11->12->5->4    372.025      0.373          0.355867          0.343717
+  148  11   5                  11->12->5    549.660      0.545          0.316810          0.300177
+  149  11   6               11->10->7->6    320.268      0.318          0.303077          0.301023
+  150  11   7                  11->10->7    451.357      0.448          0.190760          0.182089
+  151  11   8                      11->8    566.978      0.569          0.113851          0.116345
+  152  11   9                  11->12->9     94.161      0.094          0.279338          0.270665
+  153  11  10                     11->10    492.193      0.497          0.138801          0.135313
+  154  11  12                     11->12    446.849      0.449          0.139834          0.133407
+  155  11  13                 11->10->13    456.907      0.460          0.304328          0.304066
+  156  12   0                12->5->2->0    274.872      0.272          0.350643          0.333279
+  157  12   1                12->5->2->1    424.743      0.424          0.352422          0.339754
+  158  12   2                   12->5->2    335.421      0.334          0.192284          0.190659
+  159  12   3                12->9->8->3    361.318      0.363          0.330125          0.323798
+  160  12   4                   12->5->4    613.395      0.614          0.218727          0.206094
+  161  12   5                      12->5    377.906      0.379          0.141884          0.141135
+  162  12   6                12->5->4->6    138.171      0.140          0.346825          0.338816
+  163  12   7               12->9->10->7    118.213      0.119          0.314048          0.306752
+  164  12   8                   12->9->8    281.547      0.277          0.306474          0.301944
+  165  12   9                      12->9    569.182      0.570          0.129977          0.127417
+  166  12  10                  12->9->10    574.781      0.571          0.267302          0.258739
+  167  12  11                     12->11    571.793      0.575          0.110013          0.110496
+  168  12  13                  12->5->13    406.946      0.408          0.268761          0.268323
+  169  13   0                13->5->2->0    490.410      0.490          0.293885          0.294111
+  170  13   1               13->10->7->1    468.552      0.464          0.397729          0.364011
+  171  13   2                   13->5->2     78.226      0.080          0.179266          0.181126
+  172  13   3                13->5->4->3    295.932      0.298          0.224374          0.228003
+  173  13   4                   13->5->4    126.084      0.127          0.179138          0.179866
+  174  13   5                      13->5    410.061      0.405          0.127627          0.127971
+  175  13   6               13->10->7->6     83.415      0.084          0.361423          0.335541
+  176  13   7                  13->10->7    324.093      0.325          0.191332          0.188898
+  177  13   8               13->10->9->8    545.961      0.543          0.457475          0.443999
+  178  13   9                  13->10->9    639.088      0.637          0.280414          0.277787
+  179  13  10                     13->10    226.672      0.227          0.145212          0.146306
+  180  13  11                 13->10->11    533.247      0.536          0.267775          0.266731
+  181  13  12                  13->5->12    251.260      0.249          0.300278          0.306447

@@ -1,0 +1,272 @@
+2025-12-18 19:43:06.422743: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /apps/spack/gilbreth-r9/apps/cuda/12.6.0-gcc-11.5.0-a7cv7sp/lib64:/apps/spack/gilbreth-r9/apps/libxml2/2.10.3-gcc-11.5.0-wroyiwb/lib:/apps/spack/gilbreth-r9/apps/libiconv/1.17-gcc-11.5.0-36njf44/lib:/apps/spack/gilbreth-r9/apps/libfabric/1.19.1-gcc-11.5.0-b5idhcg/lib64:/apps/spack/gilbreth-r9/apps/libfabric/1.19.1-gcc-11.5.0-b5idhcg/lib:/apps/spack/gilbreth-r9/apps/openmpi/4.1.6-gcc-11.5.0-w7wc45k/lib
+2025-12-18 19:43:06.423204: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2025-12-18 19:43:11.211288: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2025-12-18 19:43:11.211375: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: gilbreth-fe03.rcac.purdue.edu
+2025-12-18 19:43:11.211390: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: gilbreth-fe03.rcac.purdue.edu
+2025-12-18 19:43:11.211476: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 565.57.1
+2025-12-18 19:43:11.211505: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 565.57.1
+2025-12-18 19:43:11.211515: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 565.57.1
+2025-12-18 19:43:11.212012: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-12-18 19:43:15.593682: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2025-12-18 19:43:16.017664: W tensorflow/core/grappler/optimizers/loop_optimizer.cc:907] Skipping loop optimization for Merge node with control input: Assert/AssertGuard/branch_executed/_1017
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).queue_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).queue_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).queue_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_embedding.layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_embedding.layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_embedding.layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_embedding.layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).queue_embedding.layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).queue_embedding.layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).queue_embedding.layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).queue_embedding.layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_embedding.layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_embedding.layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_embedding.layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_embedding.layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).readout_path.layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).readout_path.layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).readout_path.layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).readout_path.layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).readout_path.layer_with_weights-2.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).readout_path.layer_with_weights-2.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).queue_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).queue_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).queue_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_embedding.layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_embedding.layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_embedding.layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_embedding.layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).queue_embedding.layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).queue_embedding.layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).queue_embedding.layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).queue_embedding.layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_embedding.layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_embedding.layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_embedding.layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_embedding.layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).readout_path.layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).readout_path.layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).readout_path.layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).readout_path.layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).readout_path.layer_with_weights-2.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).readout_path.layer_with_weights-2.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+
+=== FERMI SCHEDULING MODE B (metric=delay) ===
+Dataset directory : /scratch/gilbreth/mohame43/Routenet/RouteNet-Fermi/data/scheduling/train
+Checkpoint dir    : /scratch/gilbreth/mohame43/Routenet/RouteNet-Fermi/scheduling/delay/ckpt_dir
+Sample index      : 1
+Routes file       : /scratch/gilbreth/mohame43/Routenet/candidate_routes_scheduling_0_5_train_nsfnet.txt
+
+[Fermi-Sched] Selected sample_index=1 (graph=graph-nsfnet-wfq-drr-sp-91.txt, dataset_file=/scratch/gilbreth/mohame43/Routenet/RouteNet-Fermi/data/scheduling/train/gnnet_data_set_0_99.tar.gz)
+Baseline sample (Fermi-Sched) uses topology graph: graph-nsfnet-wfq-drr-sp-91.txt
+Loaded baseline sample (Fermi-Sched): n_paths = 182
+BEST CHECKPOINT FOUND (Fermi-Sched): 38-2.85
+
+========================================================================================================================
+[Fermi-Sched] Candidate 1: src=0, dst=5, path = 0->2->5
+========================================================================================================================
+  idx src dst            route_nodes    traffic    packets   true_delay_orig   pred_delay
+-----------------------------------------------------------------------------------------
+    0   0   1                       0->1    350.733      0.353      0.112323      0.112300
+    1   0   2                       0->2    111.101      0.112      0.117108      0.117888
+    2   0   3                       0->3    258.200      0.258      0.132184      0.134820
+    3   0   4                    0->3->4    493.234      0.494      0.179611      0.181259
+    4   0   5 *                  0->2->5    588.126      0.583      0.165400      0.166483
+    5   0   6                 0->3->4->6    372.817      0.374      0.320173      0.322811
+    6   0   7                    0->1->7    240.129      0.241      0.238699      0.236582
+    7   0   8                    0->3->8    258.277      0.256      0.190747      0.193349
+    8   0   9                 0->3->8->9    147.789      0.149      0.299288      0.304953
+    9   0  10                0->1->7->10    108.129      0.108      0.288356      0.287899
+   10   0  11                0->3->8->11    345.508      0.347      0.324359      0.326460
+   11   0  12                0->2->5->12    505.095      0.506      0.333460      0.333683
+   12   0  13                0->2->5->13    255.027      0.257      0.283733      0.281945
+   13   1   0                       1->0    162.849      0.161      0.125417      0.125665
+   14   1   2                       1->2     82.633      0.083      0.105872      0.107234
+   15   1   3                    1->0->3    122.067      0.124      0.255148      0.259945
+   16   1   4                 1->0->3->4    509.072      0.508      0.305616      0.310942
+   17   1   5                    1->2->5    617.634      0.616      0.154181      0.154920
+   18   1   6                    1->7->6    191.583      0.192      0.257708      0.253173
+   19   1   7                       1->7    160.025      0.160      0.123143      0.123570
+   20   1   8                 1->0->3->8    402.704      0.400      0.323790      0.328968
+   21   1   9                1->7->10->9    132.946      0.135      0.296743      0.298609
+   22   1  10                   1->7->10    303.605      0.305      0.165334      0.167830
+   23   1  11               1->7->10->11    134.045      0.136      0.287460      0.288458
+   24   1  12                1->2->5->12    148.972      0.151      0.286886      0.286738
+   25   1  13               1->7->10->13    433.557      0.432      0.343304      0.340891
+   26   2   0                       2->0    190.995      0.192      0.122309      0.120374
+   27   2   1                       2->1    565.903      0.560      0.126398      0.130520
+   28   2   3                    2->0->3     78.591      0.079      0.264361      0.265458
+   29   2   4                    2->5->4    189.344      0.191      0.088478      0.088814
+   30   2   5                       2->5    114.723      0.114      0.045286      0.045531
+   31   2   6                 2->1->7->6    300.381      0.303      0.376125      0.372710
+   32   2   7                    2->1->7    292.969      0.291      0.254732      0.250442
+   33   2   8                 2->0->3->8    547.243      0.548      0.315020      0.316203
+   34   2   9                2->5->12->9    177.298      0.178      0.318216      0.316289
+   35   2  10               2->5->13->10    627.557      0.630      0.360215      0.343964
+   36   2  11               2->5->12->11    202.620      0.203      0.293327      0.293098
+   37   2  12                   2->5->12    277.315      0.277      0.212301      0.214183
+   38   2  13                   2->5->13     77.592      0.079      0.178993      0.175659
+   39   3   0                       3->0    121.744      0.121      0.135244      0.133868
+   40   3   1                    3->0->1    565.382      0.565      0.246256      0.246585
+   41   3   2                    3->0->2    211.780      0.208      0.246064      0.246905
+   42   3   4                       3->4    179.525      0.179      0.045879      0.045840
+   43   3   5                    3->4->5    396.187      0.398      0.091441      0.092773
+   44   3   6                    3->4->6    498.710      0.501      0.167541      0.168674
+   45   3   7                 3->4->6->7    263.760      0.266      0.310054      0.309716
+   46   3   8                       3->8    461.886      0.461      0.045753      0.045785
+   47   3   9                    3->8->9    341.854      0.343      0.154847      0.156080
+   48   3  10               3->8->11->10    558.500      0.558      0.320746      0.319523
+   49   3  11                   3->8->11    244.100      0.241      0.180107      0.179875
+   50   3  12                3->4->5->12    359.492      0.359      0.261695      0.263463
+   51   3  13                3->4->5->13    312.158      0.312      0.232444      0.227570
+   52   4   0                    4->3->0    523.663      0.524      0.177639      0.177971
+   53   4   1                 4->5->2->1    627.854      0.624      0.233798      0.226784
+   54   4   2                    4->5->2    548.045      0.553      0.095743      0.097491
+   55   4   3                       4->3    534.491      0.536      0.043535      0.043698
+   56   4   5                       4->5    457.098      0.456      0.047790      0.048209
+   57   4   6                       4->6    615.021      0.612      0.128724      0.128971
+   58   4   7                    4->6->7    292.752      0.291      0.265977      0.266886
+   59   4   8                    4->3->8    461.596      0.460      0.089662      0.089964
+   60   4   9                4->5->12->9    160.252      0.160      0.320517      0.320875
+   61   4  10               4->5->13->10    266.594      0.265      0.320612      0.322382
+   62   4  11               4->5->12->11    129.441      0.128      0.327162      0.333135
+   63   4  12                   4->5->12    196.546      0.198      0.213647      0.214687
+   64   4  13                   4->5->13    120.768      0.118      0.187998      0.183907
+   65   5   0                    5->2->0    575.576      0.573      0.170079      0.169786
+   66   5   1                    5->2->1    506.009      0.503      0.171524      0.169322
+   67   5   2                       5->2    483.893      0.484      0.049802      0.049263
+   68   5   3                    5->4->3    239.641      0.242      0.086829      0.087082
+   69   5   4                       5->4    344.733      0.348      0.043702      0.043425
+   70   5   6                    5->4->6    297.634      0.299      0.171205      0.171523
+   71   5   7               5->13->10->7     79.292      0.078      0.327071      0.325364
+   72   5   8                5->12->9->8    186.678      0.184      0.452851      0.460777
+   73   5   9                   5->12->9    628.914      0.635      0.260972      0.260750
+   74   5  10                  5->13->10    472.940      0.474      0.272293      0.272227
+   75   5  11                  5->12->11    440.526      0.441      0.276086      0.280885
+   76   5  12                      5->12    365.017      0.367      0.166214      0.166391
+   77   5  13                      5->13    249.683      0.246      0.138057      0.132360
+   78   6   0                 6->7->1->0    261.366      0.264      0.389946      0.390792
+   79   6   1                    6->7->1    186.274      0.187      0.296909      0.295573
+   80   6   2                 6->4->5->2    450.374      0.455      0.219191      0.220533
+   81   6   3                    6->4->3    363.647      0.368      0.166224      0.165937
+   82   6   4                       6->4    181.638      0.179      0.132108      0.133572
+   83   6   5                    6->4->5    564.920      0.564      0.181722      0.181104
+   84   6   7                       6->7    498.242      0.504      0.134783      0.135598
+   85   6   8                 6->4->3->8    407.040      0.407      0.222289      0.223460
+   86   6   9                6->7->10->9    669.780      0.667      0.338893      0.339839
+   87   6  10                   6->7->10    156.872      0.157      0.186930      0.186374
+   88   6  11               6->7->10->11    366.933      0.368      0.316071      0.317306
+   89   6  12                6->4->5->12    373.253      0.374      0.348173      0.351731
+   90   6  13               6->7->10->13    513.780      0.515      0.352112      0.353166
+   91   7   0                    7->1->0    517.172      0.515      0.292209      0.289744
+   92   7   1                       7->1    504.604      0.507      0.142325      0.139278
+   93   7   2                    7->1->2     67.741      0.068      0.248479      0.248967
+   94   7   3                 7->1->0->3    133.408      0.133      0.431799      0.438675
+   95   7   4                    7->6->4    542.271      0.546      0.264079      0.262178
+   96   7   5               7->10->13->5    467.751      0.471      0.353208      0.354366
+   97   7   6                       7->6    361.011      0.363      0.131503      0.128390
+   98   7   8                7->10->9->8    385.098      0.382      0.359519      0.356876
+   99   7   9                   7->10->9    165.634      0.167      0.199503      0.197002
+  100   7  10                      7->10    610.749      0.615      0.047254      0.047347
+  101   7  11                  7->10->11    549.932      0.551      0.178831      0.179296
+  102   7  12              7->10->11->12    447.954      0.449      0.317440      0.317884
+  103   7  13                  7->10->13    349.534      0.347      0.215861      0.215964
+  104   8   0                    8->3->0    463.880      0.463      0.181782      0.180537
+  105   8   1                 8->3->0->1    241.105      0.240      0.287977      0.287255
+  106   8   2                 8->3->0->2    296.739      0.298      0.300112      0.299624
+  107   8   3                       8->3     78.352      0.080      0.045804      0.045418
+  108   8   4                    8->3->4    155.211      0.155      0.092648      0.092744
+  109   8   5               8->11->12->5    197.298      0.193      0.411001      0.403165
+  110   8   6                 8->3->4->6    126.649      0.126      0.214681      0.217056
+  111   8   7               8->11->10->7    186.801      0.190      0.317955      0.318398
+  112   8   9                       8->9    605.263      0.607      0.108889      0.110863
+  113   8  10                  8->11->10    341.915      0.341      0.259426      0.257164
+  114   8  11                      8->11    136.252      0.135      0.131719      0.133500
+  115   8  12                  8->11->12    643.663      0.642      0.272015      0.271213
+  116   8  13              8->11->10->13     92.329      0.090      0.401855      0.401505
+  117   9   0                 9->8->3->0    199.466      0.198      0.345026      0.352251
+  118   9   1                9->10->7->1    465.408      0.467      0.339050      0.331161
+  119   9   2                9->12->5->2    276.374      0.276      0.297021      0.297786
+  120   9   3                    9->8->3    560.058      0.557      0.218800      0.216388
+  121   9   4                 9->8->3->4    505.870      0.505      0.234199      0.236100
+  122   9   5                   9->12->5    134.203      0.132      0.285053      0.285676
+  123   9   6                9->10->7->6    314.226      0.314      0.308269      0.303147
+  124   9   7                   9->10->7    210.290      0.214      0.164913      0.163623
+  125   9   8                       9->8    514.261      0.514      0.172321      0.166019
+  126   9  10                      9->10    320.785      0.319      0.125936      0.123546
+  127   9  11                   9->8->11    315.008      0.314      0.278010      0.283299
+  128   9  12                      9->12    102.054      0.102      0.104022      0.104056
+  129   9  13                  9->10->13    500.274      0.505      0.288608      0.286177
+  130  10   0                10->7->1->0    549.615      0.551      0.303001      0.302729
+  131  10   1                   10->7->1    441.260      0.439      0.181907      0.180002
+  132  10   2               10->13->5->2    314.626      0.318      0.348776      0.352827
+  133  10   3                10->9->8->3    493.172      0.493      0.352948      0.354001
+  134  10   4               10->13->5->4    224.161      0.227      0.307107      0.305380
+  135  10   5                  10->13->5    561.609      0.564      0.301048      0.303975
+  136  10   6                   10->7->6    640.012      0.639      0.171913      0.172243
+  137  10   7                      10->7    190.659      0.193      0.048051      0.047877
+  138  10   8                   10->9->8    278.678      0.282      0.292452      0.294418
+  139  10   9                      10->9    171.741      0.171      0.148148      0.147180
+  140  10  11                     10->11    476.917      0.473      0.122212      0.122519
+  141  10  12                 10->11->12    110.029      0.112      0.265023      0.263458
+  142  10  13                     10->13    617.159      0.615      0.163760      0.164467
+  143  11   0                11->8->3->0    390.232      0.393      0.287294      0.287405
+  144  11   1               11->10->7->1    375.134      0.372      0.321212      0.320982
+  145  11   2               11->12->5->2    429.402      0.425      0.323649      0.321402
+  146  11   3                   11->8->3    504.924      0.507      0.158311      0.157668
+  147  11   4               11->12->5->4    372.025      0.373      0.355867      0.354430
+  148  11   5                  11->12->5    549.660      0.545      0.316810      0.312965
+  149  11   6               11->10->7->6    320.268      0.318      0.303077      0.301930
+  150  11   7                  11->10->7    451.357      0.448      0.190760      0.189881
+  151  11   8                      11->8    566.978      0.569      0.113851      0.112429
+  152  11   9                  11->12->9     94.161      0.094      0.279338      0.278750
+  153  11  10                     11->10    492.193      0.497      0.138801      0.138412
+  154  11  12                     11->12    446.849      0.449      0.139834      0.136811
+  155  11  13                 11->10->13    456.907      0.460      0.304328      0.302565
+  156  12   0                12->5->2->0    274.872      0.272      0.350643      0.341487
+  157  12   1                12->5->2->1    424.743      0.424      0.352422      0.350555
+  158  12   2                   12->5->2    335.421      0.334      0.192284      0.191447
+  159  12   3                12->9->8->3    361.318      0.363      0.330125      0.337919
+  160  12   4                   12->5->4    613.395      0.614      0.218727      0.215426
+  161  12   5                      12->5    377.906      0.379      0.141884      0.139981
+  162  12   6                12->5->4->6    138.171      0.140      0.346825      0.345096
+  163  12   7               12->9->10->7    118.213      0.119      0.314048      0.312715
+  164  12   8                   12->9->8    281.547      0.277      0.306474      0.303735
+  165  12   9                      12->9    569.182      0.570      0.129977      0.130649
+  166  12  10                  12->9->10    574.781      0.571      0.267302      0.266186
+  167  12  11                     12->11    571.793      0.575      0.110013      0.110366
+  168  12  13                  12->5->13    406.946      0.408      0.268761      0.267552
+  169  13   0                13->5->2->0    490.410      0.490      0.293885      0.289746
+  170  13   1               13->10->7->1    468.552      0.464      0.397729      0.378258
+  171  13   2                   13->5->2     78.226      0.080      0.179266      0.183751
+  172  13   3                13->5->4->3    295.932      0.298      0.224374      0.226589
+  173  13   4                   13->5->4    126.084      0.127      0.179138      0.181216
+  174  13   5                      13->5    410.061      0.405      0.127627      0.126189
+  175  13   6               13->10->7->6     83.415      0.084      0.361423      0.346758
+  176  13   7                  13->10->7    324.093      0.325      0.191332      0.191711
+  177  13   8               13->10->9->8    545.961      0.543      0.457475      0.452862
+  178  13   9                  13->10->9    639.088      0.637      0.280414      0.279566
+  179  13  10                     13->10    226.672      0.227      0.145212      0.143927
+  180  13  11                 13->10->11    533.247      0.536      0.267775      0.266785
+  181  13  12                  13->5->12    251.260      0.249      0.300278      0.308999

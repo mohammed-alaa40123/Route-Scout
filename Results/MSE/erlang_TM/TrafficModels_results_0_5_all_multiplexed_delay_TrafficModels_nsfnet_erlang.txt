@@ -1,0 +1,254 @@
+2025-12-18 19:42:34.172849: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /apps/spack/gilbreth-r9/apps/cuda/12.6.0-gcc-11.5.0-a7cv7sp/lib64:/apps/spack/gilbreth-r9/apps/libxml2/2.10.3-gcc-11.5.0-wroyiwb/lib:/apps/spack/gilbreth-r9/apps/libiconv/1.17-gcc-11.5.0-36njf44/lib:/apps/spack/gilbreth-r9/apps/libfabric/1.19.1-gcc-11.5.0-b5idhcg/lib64:/apps/spack/gilbreth-r9/apps/libfabric/1.19.1-gcc-11.5.0-b5idhcg/lib:/apps/spack/gilbreth-r9/apps/openmpi/4.1.6-gcc-11.5.0-w7wc45k/lib
+2025-12-18 19:42:34.173437: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2025-12-18 19:42:36.516411: E tensorflow/stream_executor/cuda/cuda_driver.cc:271] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2025-12-18 19:42:36.516493: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: gilbreth-fe03.rcac.purdue.edu
+2025-12-18 19:42:36.516508: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: gilbreth-fe03.rcac.purdue.edu
+2025-12-18 19:42:36.516584: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 565.57.1
+2025-12-18 19:42:36.516613: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 565.57.1
+2025-12-18 19:42:36.516623: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 565.57.1
+2025-12-18 19:42:36.516907: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-12-18 19:42:37.555040: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+WARNING:tensorflow:Unresolved object in checkpoint: (root).link_embedding
+WARNING:tensorflow:Unresolved object in checkpoint: (root).path_embedding
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp
+WARNING:tensorflow:Unresolved object in checkpoint: (root).link_embedding.layer_with_weights-0
+WARNING:tensorflow:Unresolved object in checkpoint: (root).link_embedding.layer_with_weights-1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).path_embedding.layer_with_weights-0
+WARNING:tensorflow:Unresolved object in checkpoint: (root).path_embedding.layer_with_weights-1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer-0
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer_with_weights-0
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer-2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer_with_weights-1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer-4
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer_with_weights-2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.iter
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_1
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.beta_2
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.decay
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer.learning_rate
+WARNING:tensorflow:Unresolved object in checkpoint: (root).link_embedding.layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).link_embedding.layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).link_embedding.layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).link_embedding.layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).path_embedding.layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).path_embedding.layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).path_embedding.layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).path_embedding.layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer_with_weights-0.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer_with_weights-0.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer_with_weights-1.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer_with_weights-1.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer_with_weights-2.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).aggr_mlp.layer_with_weights-2.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).link_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'm' for (root).path_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).link_update.bias
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_update.kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_update.recurrent_kernel
+WARNING:tensorflow:Unresolved object in checkpoint: (root).optimizer's state 'v' for (root).path_update.bias
+WARNING:tensorflow:A checkpoint was restored (e.g. tf.train.Checkpoint.restore or tf.keras.Model.load_weights) but not all checkpointed values were used. See above for specific issues. Use expect_partial() on the load status object, e.g. tf.train.Checkpoint.restore(...).expect_partial(), to silence these warnings, or use assert_consumed() to make the check explicit. See https://www.tensorflow.org/guide/checkpoint#loading_mechanics for details.
+
+=== ERLANG MODE B ===
+Dataset directory : /scratch/gilbreth/mohame43/Routenet/RouteNet-Erlang/data/traffic_models/all_multiplexed/train/nsfnet-multiplexed
+Experiment dir    : /scratch/gilbreth/mohame43/Routenet/RouteNet-Erlang/TrafficModels/Delay/all_multiplexed
+Metric / label    : delay
+Sample index      : 0
+Routes file       : /scratch/gilbreth/mohame43/Routenet/candidate_routes_0_5_train_nsfnet.txt
+
+Loaded baseline sample: n_paths = 182, n_links = 42
+BEST CHECKPOINT FOUND (Erlang): 192-3.56
+
+====================================================================================================
+[Erlang] Candidate 1: src=0, dst=5, path = 0->2->5
+====================================================================================================
+  idx src dst            route_nodes    traffic    packets   time_params[0:4] true_delay_orig   pred_delay
+----------------------------------------------------------------------------------------------------------
+    0   0   1                       0->1    813.463      0.817        [1. 0. 0. 0.]      0.181023      0.178031
+    1   0   2                       0->2   1103.650      1.102        [0. 0. 0. 0.]      0.250482      0.249095
+    2   0   3                       0->3    634.225      0.633        [0. 0. 0. 0.]      1.980250      1.983116
+    3   0   4                    0->3->4   1234.970      1.233        [1. 0. 0. 0.]      1.294890      1.283968
+    4   0   5 *                  0->2->5    675.747      0.678        [0. 0. 0. 0.]      1.029140      1.000759
+    5   0   6                 0->1->7->6    576.656      0.576        [1. 0. 0. 0.]      1.018920      0.997132
+    6   0   7                    0->1->7    208.819      0.210        [0. 1. 0. 0.]      0.703862      0.682396
+    7   0   8                    0->3->8    875.107      0.873        [0. 1. 0. 0.]      1.266870      1.263405
+    8   0   9                 0->3->8->9   1086.150      1.089        [1. 0. 0. 0.]      1.619720      1.622651
+    9   0  10                0->1->7->10   1254.020      1.255        [1. 0. 0. 0.]      0.789742      0.775141
+   10   0  11                0->3->8->11   1045.590      1.048        [1. 0. 0. 0.]      1.480690      1.477914
+   11   0  12                0->2->5->12    906.838      0.909        [0. 0. 0. 0.]      1.042610      1.056581
+   12   0  13                0->2->5->13    798.633      0.799        [1. 0. 0. 0.]      1.056790      1.060440
+   13   1   0                       1->0   1214.100      1.214        [0. 1. 0. 0.]      0.213529      0.228848
+   14   1   2                       1->2    604.127      0.605        [0. 0. 0. 0.]      0.838903      0.879566
+   15   1   3                    1->0->3    340.889      0.342        [0. 0. 0. 0.]      1.465350      1.470947
+   16   1   4                 1->0->3->4    849.353      0.850        [0. 0. 0. 0.]      1.566200      1.586953
+   17   1   5                    1->2->5    832.050      0.835        [1. 0. 0. 0.]      0.300846      0.311703
+   18   1   6                    1->7->6    969.077      0.968        [0. 0. 0. 0.]      0.864207      0.855588
+   19   1   7                       1->7   1165.430      1.166        [1. 0. 0. 0.]      0.538361      0.534916
+   20   1   8                 1->0->3->8   1241.610      1.243        [0. 1. 0. 0.]      1.496910      1.510819
+   21   1   9                1->7->10->9    366.949      0.370        [0. 0. 0. 0.]      0.942971      0.915586
+   22   1  10                   1->7->10    491.854      0.490        [1. 0. 0. 0.]      0.601667      0.588644
+   23   1  11               1->7->10->11    836.036      0.836        [0. 0. 0. 0.]      0.985787      0.963658
+   24   1  12                1->2->5->12   1282.700      1.282        [0. 0. 0. 0.]      1.275150      1.294270
+   25   1  13               1->7->10->13    360.409      0.360        [0. 0. 0. 0.]      0.825829      0.813461
+   26   2   0                       2->0    609.404      0.608        [1. 0. 0. 0.]      0.156370      0.156860
+   27   2   1                       2->1    476.521      0.476        [0. 0. 0. 0.]      0.236137      0.236447
+   28   2   3                    2->0->3    284.478      0.285        [1. 0. 0. 0.]      1.400640      1.384076
+   29   2   4                    2->5->4   1220.360      1.220        [0. 1. 0. 0.]      0.109852      0.109348
+   30   2   5                       2->5    849.774      0.849        [1. 0. 0. 0.]      0.065054      0.065212
+   31   2   6                 2->1->7->6    272.738      0.273        [0. 0. 0. 0.]      1.084510      1.051966
+   32   2   7                    2->1->7    718.574      0.716        [0. 0. 0. 0.]      2.165220      2.117260
+   33   2   8                 2->0->3->8    818.469      0.819        [1. 0. 0. 0.]      1.464170      1.454406
+   34   2   9                2->5->12->9    151.979      0.151        [0. 1. 0. 0.]      1.108920      1.119212
+   35   2  10               2->5->13->10    450.982      0.451        [0. 0. 0. 0.]      3.011000      2.833781
+   36   2  11               2->5->12->11    540.764      0.544        [0. 0. 0. 0.]      1.856380      1.891332
+   37   2  12                   2->5->12    264.826      0.265        [0. 0. 0. 0.]      0.801315      0.806511
+   38   2  13                   2->5->13   1184.650      1.184        [0. 0. 0. 0.]      0.789928      0.785774
+   39   3   0                       3->0    781.234      0.781        [0. 0. 0. 0.]      1.803420      1.755965
+   40   3   1                    3->0->1    468.977      0.467        [0. 0. 0. 0.]      1.288780      1.246381
+   41   3   2                    3->0->2   1190.830      1.187        [0. 1. 0. 0.]      1.320170      1.295460
+   42   3   4                       3->4   1284.650      1.289        [0. 0. 0. 0.]      0.057182      0.056439
+   43   3   5                    3->4->5   1095.150      1.097        [0. 0. 0. 0.]      0.104921      0.105654
+   44   3   6                    3->4->6   1093.940      1.098        [1. 0. 0. 0.]      0.238627      0.235736
+   45   3   7                 3->0->1->7    583.937      0.585        [0. 0. 0. 0.]      1.786950      1.771543
+   46   3   8                       3->8    313.920      0.315        [1. 0. 0. 0.]      0.060972      0.061487
+   47   3   9                    3->8->9    905.640      0.905        [1. 0. 0. 0.]      0.383962      0.381446
+   48   3  10                3->8->9->10    938.086      0.937        [0. 0. 0. 0.]      0.747876      0.751818
+   49   3  11                   3->8->11    412.116      0.413        [1. 0. 0. 0.]      0.241543      0.243031
+   50   3  12               3->8->11->12    584.112      0.583        [0. 0. 0. 0.]      0.462207      0.471284
+   51   3  13                3->4->5->13    860.949      0.858        [0. 0. 0. 0.]      1.855980      1.760305
+   52   4   0                    4->3->0   1222.950      1.224        [0. 0. 0. 0.]      1.150850      1.123446
+   53   4   1                 4->3->0->1   1099.650      1.100        [1. 0. 0. 0.]      1.331970      1.303180
+   54   4   2                    4->5->2    470.268      0.470        [0. 0. 0. 0.]      0.107403      0.108046
+   55   4   3                       4->3    582.498      0.584        [0. 1. 0. 0.]      0.053275      0.053021
+   56   4   5                       4->5    413.690      0.414        [1. 0. 0. 0.]      0.049561      0.051178
+   57   4   6                       4->6    806.611      0.805        [0. 1. 0. 0.]      0.159777      0.159794
+   58   4   7                    4->6->7    704.488      0.704        [0. 1. 0. 0.]      0.455060      0.462374
+   59   4   8                    4->3->8    869.127      0.869        [0. 0. 0. 0.]      0.113503      0.112699
+   60   4   9                 4->3->8->9    902.729      0.902        [0. 0. 0. 0.]      0.424190      0.427506
+   61   4  10               4->5->13->10    568.768      0.571        [1. 0. 0. 0.]      1.551730      1.480132
+   62   4  11                4->3->8->11    620.630      0.621        [0. 1. 0. 0.]      0.278482      0.283092
+   63   4  12                   4->5->12    234.797      0.234        [0. 0. 0. 0.]      0.777946      0.790974
+   64   4  13                   4->5->13    765.238      0.763        [0. 1. 0. 0.]      0.751455      0.746854
+   65   5   0                    5->2->0   1303.230      1.306        [0. 0. 0. 0.]      0.204770      0.202285
+   66   5   1                    5->2->1   1160.270      1.160        [0. 0. 0. 0.]      0.740649      0.777290
+   67   5   2                       5->2    248.700      0.250        [0. 0. 0. 0.]      0.224018      0.214565
+   68   5   3                    5->4->3   1154.540      1.154        [0. 0. 0. 0.]      0.101289      0.099995
+   69   5   4                       5->4    242.501      0.243        [0. 0. 0. 0.]      0.050033      0.048543
+   70   5   6                    5->4->6   1000.610      0.999        [0. 0. 0. 0.]      0.220440      0.215755
+   71   5   7               5->13->10->7   1195.410      1.197        [0. 0. 0. 0.]      1.625320      1.575055
+   72   5   8                5->12->9->8    320.175      0.320        [0. 0. 0. 0.]      1.695710      1.721401
+   73   5   9                   5->12->9   1121.660      1.122        [0. 0. 0. 0.]      1.046510      1.054781
+   74   5  10                  5->13->10    596.253      0.596        [0. 0. 0. 0.]      1.484370      1.406528
+   75   5  11                  5->12->11    928.570      0.930        [0. 1. 0. 0.]      0.810426      0.816660
+   76   5  12                      5->12    610.985      0.611        [0. 0. 0. 0.]      0.721756      0.736508
+   77   5  13                      5->13    604.049      0.604        [0. 0. 0. 0.]      0.709387      0.727954
+   78   6   0                 6->4->3->0    141.792      0.141        [0. 0. 0. 0.]      1.322740      1.289376
+   79   6   1                    6->7->1    324.285      0.325        [0. 1. 0. 0.]      0.862179      0.883305
+   80   6   2                 6->7->1->2    691.811      0.693        [0. 0. 0. 0.]      2.448630      2.549636
+   81   6   3                    6->4->3    332.177      0.331        [1. 0. 0. 0.]      0.227636      0.225610
+   82   6   4                       6->4   1042.200      1.042        [1. 0. 0. 0.]      0.171772      0.172060
+   83   6   5                    6->4->5    825.763      0.826        [1. 0. 0. 0.]      0.221798      0.223188
+   84   6   7                       6->7   1027.520      1.029        [0. 1. 0. 0.]      0.289621      0.295523
+   85   6   8                 6->4->3->8    841.956      0.843        [0. 0. 0. 0.]      0.276098      0.276108
+   86   6   9                6->7->10->9    447.834      0.448        [0. 0. 0. 0.]      0.766824      0.757991
+   87   6  10                   6->7->10    783.017      0.782        [0. 0. 0. 0.]      0.375498      0.378174
+   88   6  11               6->7->10->11   1238.570      1.237        [0. 1. 0. 0.]      0.665264      0.679920
+   89   6  12                6->4->5->12    585.511      0.586        [0. 1. 0. 0.]      0.914131      0.932601
+   90   6  13               6->7->10->13    336.046      0.335        [0. 0. 0. 0.]      1.842830      1.837332
+   91   7   0                    7->1->0    824.661      0.828        [0. 0. 0. 0.]      0.846722      0.897440
+   92   7   1                       7->1    910.834      0.911        [0. 0. 0. 0.]      0.571034      0.591010
+   93   7   2                    7->1->2    192.887      0.193        [0. 0. 0. 0.]      0.803089      0.830871
+   94   7   3                 7->1->0->3   1248.280      1.251        [0. 0. 0. 0.]      3.392510      3.580778
+   95   7   4                    7->6->4    333.458      0.335        [0. 0. 0. 0.]      0.453416      0.457017
+   96   7   5               7->10->13->5    909.572      0.909        [0. 1. 0. 0.]      0.579109      0.579713
+   97   7   6                       7->6    907.568      0.907        [1. 0. 0. 0.]      0.289722      0.290836
+   98   7   8                7->10->9->8   1194.850      1.196        [0. 0. 0. 0.]      1.330860      1.305326
+   99   7   9                   7->10->9    653.684      0.654        [1. 0. 0. 0.]      0.417412      0.412741
+  100   7  10                      7->10    430.849      0.431        [1. 0. 0. 0.]      0.064243      0.063796
+  101   7  11                  7->10->11    999.630      0.998        [1. 0. 0. 0.]      0.401915      0.412770
+  102   7  12              7->10->11->12   1166.370      1.168        [0. 0. 0. 0.]      0.619696      0.626663
+  103   7  13                  7->10->13    502.634      0.501        [0. 0. 0. 0.]      0.281636      0.288890
+  104   8   0                    8->3->0   1132.370      1.134        [1. 0. 0. 0.]      1.164370      1.142534
+  105   8   1                 8->3->0->1    342.336      0.342        [0. 0. 0. 0.]      2.476780      2.363968
+  106   8   2                 8->3->0->2    714.160      0.715        [0. 0. 0. 0.]      1.520240      1.498614
+  107   8   3                       8->3   1249.920      1.251        [0. 0. 0. 0.]      0.057342      0.058033
+  108   8   4                    8->3->4    423.000      0.424        [0. 0. 0. 0.]      0.117156      0.115846
+  109   8   5               8->11->12->5    946.735      0.946        [0. 0. 0. 0.]      1.241440      1.239598
+  110   8   6                 8->3->4->6    967.173      0.969        [1. 0. 0. 0.]      0.300977      0.297096
+  111   8   7                8->9->10->7    373.652      0.374        [1. 0. 0. 0.]      0.759793      0.764087
+  112   8   9                       8->9   1120.380      1.121        [0. 0. 0. 0.]      0.311319      0.308300
+  113   8  10                   8->9->10    452.024      0.450        [0. 0. 0. 0.]      1.960740      1.919549
+  114   8  11                      8->11    938.537      0.938        [0. 1. 0. 0.]      0.158452      0.161122
+  115   8  12                  8->11->12    776.713      0.778        [0. 0. 0. 0.]      0.413914      0.418864
+  116   8  13               8->9->10->13    294.934      0.295        [0. 0. 0. 0.]      2.538750      2.545016
+  117   9   0                 9->8->3->0    536.935      0.536        [0. 0. 0. 0.]      3.093930      3.174500
+  118   9   1                9->10->7->1    204.522      0.204        [0. 0. 0. 0.]      1.014100      1.041400
+  119   9   2                9->12->5->2   1168.090      1.167        [0. 1. 0. 0.]      0.962276      0.929517
+  120   9   3                    9->8->3    759.571      0.761        [1. 0. 0. 0.]      0.705998      0.715968
+  121   9   4                 9->8->3->4    180.292      0.180        [1. 0. 0. 0.]      0.769975      0.770477
+  122   9   5                   9->12->5    464.943      0.464        [0. 0. 0. 0.]      0.942129      0.928177
+  123   9   6                9->10->7->6    242.473      0.243        [0. 1. 0. 0.]      0.707529      0.712389
+  124   9   7                   9->10->7    765.959      0.767        [0. 1. 0. 0.]      0.419852      0.418923
+  125   9   8                       9->8   1084.300      1.087        [1. 0. 0. 0.]      0.651002      0.654508
+  126   9  10                      9->10    935.781      0.936        [1. 0. 0. 0.]      0.376842      0.381990
+  127   9  11                   9->8->11    202.626      0.203        [1. 0. 0. 0.]      0.827008      0.829587
+  128   9  12                      9->12    795.780      0.796        [1. 0. 0. 0.]      0.121869      0.122224
+  129   9  13                  9->10->13   1135.950      1.136        [0. 1. 0. 0.]      0.555138      0.563515
+  130  10   0                10->7->1->0    377.656      0.379        [0. 1. 0. 0.]      0.847390      0.886210
+  131  10   1                   10->7->1    393.145      0.394        [1. 0. 0. 0.]      0.641711      0.668831
+  132  10   2                10->7->1->2    950.556      0.948        [1. 0. 0. 0.]      0.883568      0.912472
+  133  10   3                10->9->8->3    889.975      0.889        [0. 0. 0. 0.]      1.211480      1.193559
+  134  10   4                10->7->6->4   1101.040      1.099        [0. 1. 0. 0.]      0.481728      0.485929
+  135  10   5                  10->13->5   1019.060      1.017        [0. 1. 0. 0.]      0.514009      0.513745
+  136  10   6                   10->7->6   1114.730      1.120        [0. 1. 0. 0.]      0.327128      0.333839
+  137  10   7                      10->7   1261.740      1.261        [0. 0. 0. 0.]      0.063418      0.063946
+  138  10   8                   10->9->8    132.970      0.132        [0. 1. 0. 0.]      0.976491      0.965415
+  139  10   9                      10->9    596.735      0.598        [1. 0. 0. 0.]      0.351018      0.344584
+  140  10  11                     10->11   1138.890      1.140        [0. 0. 0. 0.]      0.341498      0.353250
+  141  10  12                 10->11->12    266.904      0.266        [0. 0. 0. 0.]      0.559261      0.574632
+  142  10  13                     10->13    636.188      0.636        [0. 0. 0. 0.]      0.217592      0.223315
+  143  11   0                11->8->3->0   1038.440      1.039        [0. 0. 0. 0.]      2.373650      2.483152
+  144  11   1               11->10->7->1    541.224      0.541        [0. 0. 0. 0.]      0.773570      0.792919
+  145  11   2               11->12->5->2    533.339      0.529        [0. 0. 0. 0.]      1.300040      1.271435
+  146  11   3                   11->8->3    502.343      0.502        [0. 0. 0. 0.]      0.263796      0.265427
+  147  11   4                11->8->3->4    142.268      0.144        [0. 1. 0. 0.]      0.322774      0.325363
+  148  11   5                  11->12->5   1013.810      1.014        [0. 1. 0. 0.]      1.015070      0.994983
+  149  11   6               11->10->7->6   1221.970      1.223        [0. 0. 0. 0.]      0.529523      0.538785
+  150  11   7                  11->10->7    897.310      0.900        [1. 0. 0. 0.]      0.205787      0.206573
+  151  11   8                      11->8    626.415      0.624        [0. 0. 0. 0.]      0.764536      0.719970
+  152  11   9                  11->12->9   1117.240      1.117        [0. 0. 0. 0.]      0.548673      0.546547
+  153  11  10                     11->10    499.406      0.499        [0. 0. 0. 0.]      0.131545      0.132608
+  154  11  12                     11->12    675.104      0.675        [1. 0. 0. 0.]      0.245568      0.245556
+  155  11  13                 11->10->13    427.848      0.429        [0. 0. 0. 0.]      0.352225      0.358737
+  156  12   0                12->5->2->0    914.334      0.914        [0. 1. 0. 0.]      0.990478      0.976342
+  157  12   1                12->5->2->1    451.746      0.452        [1. 0. 0. 0.]      1.133180      1.118554
+  158  12   2                   12->5->2    335.239      0.336        [0. 0. 0. 0.]      0.864542      0.855631
+  159  12   3                12->9->8->3    193.019      0.193        [0. 0. 0. 0.]      1.021780      1.031143
+  160  12   4                   12->5->4   1021.830      1.023        [0. 0. 0. 0.]      0.853606      0.843721
+  161  12   5                      12->5    425.512      0.426        [0. 0. 0. 0.]      0.815745      0.790321
+  162  12   6                12->5->4->6    802.055      0.804        [0. 0. 0. 0.]      1.038820      1.034575
+  163  12   7               12->9->10->7    605.712      0.606        [0. 0. 0. 0.]      0.753879      0.760310
+  164  12   8                   12->9->8   1196.120      1.196        [1. 0. 0. 0.]      0.991525      0.989627
+  165  12   9                      12->9   1044.950      1.048        [0. 1. 0. 0.]      0.308412      0.299528
+  166  12  10                  12->9->10    668.469      0.669        [0. 0. 0. 0.]      2.015820      1.880456
+  167  12  11                     12->11    481.458      0.482        [1. 0. 0. 0.]      0.116118      0.116785
+  168  12  13                  12->5->13   1229.590      1.229        [1. 0. 0. 0.]      1.559090      1.566465
+  169  13   0                13->5->2->0    674.437      0.675        [0. 1. 0. 0.]      0.516331      0.510172
+  170  13   1               13->10->7->1    624.054      0.623        [0. 1. 0. 0.]      1.374200      1.347549
+  171  13   2                   13->5->2    312.547      0.312        [0. 1. 0. 0.]      0.372780      0.366775
+  172  13   3                13->5->4->3    874.756      0.875        [0. 0. 0. 0.]      0.422935      0.411564
+  173  13   4                   13->5->4    547.957      0.549        [0. 0. 0. 0.]      0.364940      0.361768
+  174  13   5                      13->5    381.040      0.381        [0. 0. 0. 0.]      0.328473      0.318491
+  175  13   6               13->10->7->6    226.984      0.227        [0. 0. 0. 0.]      2.478350      2.419494
+  176  13   7                  13->10->7    656.146      0.656        [0. 0. 0. 0.]      1.536510      1.432753
+  177  13   8               13->10->9->8   1140.920      1.141        [0. 0. 0. 0.]      3.114580      3.034488
+  178  13   9                  13->10->9    972.028      0.968        [0. 0. 0. 0.]      1.230680      1.155823
+  179  13  10                     13->10    157.800      0.158        [1. 0. 0. 0.]      0.765633      0.707890
+  180  13  11                 13->10->11   1012.830      1.011        [0. 0. 0. 0.]      2.145720      2.086923
+  181  13  12                  13->5->12   1051.550      1.049        [0. 0. 0. 0.]      2.363560      2.288038
